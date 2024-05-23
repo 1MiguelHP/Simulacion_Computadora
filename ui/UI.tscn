@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://GodotActionRPG-Assets/UI_WhiteSquare.png" type="Texture" id=1]
+[ext_resource path="res://GodotActionRPG-Assets/Font/UIFont.tres" type="DynamicFont" id=2]
+
+[node name="UI" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="HealthBar" type="TextureProgress" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -496.0
+margin_top = 247.0
+margin_right = -227.0
+margin_bottom = 287.0
+value = 50.0
+texture_under = ExtResource( 1 )
+texture_progress = ExtResource( 1 )
+tint_under = Color( 0.92549, 0.898039, 0.898039, 1 )
+tint_progress = Color( 0.898039, 0.054902, 0.054902, 1 )
+nine_patch_stretch = true
+
+[node name="Label" type="Label" parent="."]
+margin_left = 15.0
+margin_top = 512.0
+margin_right = 153.0
+margin_bottom = 583.0
+custom_fonts/font = ExtResource( 2 )
+text = "Gold:500
+"

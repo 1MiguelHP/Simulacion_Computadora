@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/naturePack_014.obj-e3006f911b61ee378c491ba22a7f76c9.mesh"
+
+[deps]
+
+files=[ "res://.import/naturePack_014.obj-e3006f911b61ee378c491ba22a7f76c9.mesh" ]
+
+source_file="res://Player/GodotActionRPG-Assets/Models/Environment/naturePack_014.obj"
+dest_files=[ "res://.import/naturePack_014.obj-e3006f911b61ee378c491ba22a7f76c9.mesh", "res://.import/naturePack_014.obj-e3006f911b61ee378c491ba22a7f76c9.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
